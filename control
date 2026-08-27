@@ -1,0 +1,10 @@
+Package: qcom-toolbox.whiz-wireless
+Name: Whiz Wireless
+Description: Cosmetic status bar override - custom carrier name, signal bars, and network type label (e.g. "9G")
+Maintainer: yourname
+Author: yourname
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Homepage: https://example.com
+Architecture: iphoneos-arm64
+Version: 1.7
