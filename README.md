@@ -6,6 +6,10 @@
 
 <p align="center">Cosmetic status bar override for iOS 15 rootless jailbreaks.</p>
 
+<p align="center">
+  <img src="demo.gif" width="240" alt="Whiz Wireless demo">
+</p>
+
 ## What it does
 
 Replaces the status bar's cellular text (e.g. "No SIM") with a custom carrier
