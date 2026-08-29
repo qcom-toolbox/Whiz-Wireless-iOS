@@ -6,6 +6,40 @@
 	<string>Whiz Wireless</string>
 	<key>items</key>
 	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring after changing the carrier name for it to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>qcom-toolbox.whiz-wireless</string>
+			<key>key</key>
+			<string>CarrierName</string>
+			<key>label</key>
+			<string>Carrier Name</string>
+			<key>default</key>
+			<string>Whiz Wireless 9G</string>
+			<key>autocapitalizationType</key>
+			<string>Words</string>
+			<key>autocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring:</string>
+		</dict>
 	</array>
 </dict>
 </plist>
