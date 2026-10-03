@@ -12,13 +12,28 @@
 
 ## What it does
 
-Replaces the status bar's cellular text (e.g. "No SIM") with a custom carrier
-string, by hooking `_UIStatusBarDataCellularEntry setString:` in SpringBoard.
-A Preferences bundle is included for future configuration.
+- **Carrier name:** replaces the status bar's cellular text (e.g. "No SIM")
+  with a custom string, by hooking `_UIStatusBarDataCellularEntry setString:`
+  in SpringBoard.
+- **Signal bars:** optionally forces the cellular signal icon to show a fixed
+  number of bars (0–4), by hooking `_UIStatusBarSignalView`. The Wi-Fi icon is
+  left alone.
+
+## Settings
+
+Everything is configured from **Settings → Whiz Wireless**:
+
+| Setting      | Description                                             | Default            |
+|--------------|---------------------------------------------------------|--------------------|
+| Carrier Name | Text shown in place of the cellular status text        | `Whiz Wireless 9G` |
+| Signal Bars  | `Off` keeps the real signal, or pick 0–4 bars           | `Off`              |
+| Respring     | Restarts SpringBoard so changes take effect             |                    |
+
+Changes apply after a respring.
 
 ## Requirements
 
-- iOS 15.x, rootless jailbreak (tested on Dopamine)
+- iOS 15.x, rootless jailbreak (tested on Dopamine, iPhone XS, iOS 15.4.1)
 - Theos
 
 ## Building
