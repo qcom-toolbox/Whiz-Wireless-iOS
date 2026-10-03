@@ -6,6 +6,72 @@
 	<string>Whiz Wireless</string>
 	<key>items</key>
 	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring after changing the carrier name for it to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>qcom-toolbox.whiz-wireless</string>
+			<key>key</key>
+			<string>CarrierName</string>
+			<key>label</key>
+			<string>Carrier Name</string>
+			<key>default</key>
+			<string>Whiz Wireless 9G</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Signal Bars</string>
+			<key>footerText</key>
+			<string>Off shows the real signal. Respring after changing it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>defaults</key>
+			<string>qcom-toolbox.whiz-wireless</string>
+			<key>key</key>
+			<string>SignalBars</string>
+			<key>default</key>
+			<integer>-1</integer>
+			<key>validValues</key>
+			<array>
+				<integer>-1</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Off</string>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring:</string>
+		</dict>
 	</array>
 </dict>
 </plist>

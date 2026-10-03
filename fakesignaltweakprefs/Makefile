@@ -7,6 +7,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = FakeSignalTweakPrefs
 FakeSignalTweakPrefs_FILES = FSTRootListController.m
+FakeSignalTweakPrefs_CFLAGS = -fobjc-arc
 FakeSignalTweakPrefs_INSTALL_PATH = /Library/PreferenceBundles
 FakeSignalTweakPrefs_FRAMEWORKS = UIKit
 FakeSignalTweakPrefs_PRIVATE_FRAMEWORKS = Preferences
